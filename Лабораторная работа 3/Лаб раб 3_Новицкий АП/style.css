@@ -1,0 +1,48 @@
+body{
+	padding: 2px;
+}
+.conteiner {
+    background-color: #d5e1ef;
+    width: 1440px;
+    height: 770px;
+} 
+.main {
+    border-radius: 15px;
+    background-color: white;
+	max-width: 300px;
+	height: 500px;
+    top: 100px;
+	margin: auto;
+	position: relative;
+}
+.d_img {
+    border-radius: 15px;
+    position: absolute;
+    width: 90%;
+    height: 60%;
+    margin: 5%; 
+}
+.exmpl {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exmpl img {
+    height: 100%;
+    width: auto;
+}
+.d_text {
+    position: absolute;
+    width: 100%;
+    margin-top: 300px;
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.d_text p {
+    font-weight: 400;
+}

@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+@font-face {
+    font-family: Aharoni;
+    /* Гарнитура шрифта */
+    src: url(./aharoni/ahronbd.ttf);
+    /* Путь к файлу со шрифтом */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    /* базовый размер шрифта 10px */
+    font-size: 62.5%;
+    font-family: 'Alata', sans-serif;
+    color: #E8E8E8;
+
+}
+
+body {
+    height: 100vh;
+    /* высота экрана пользователя*/
+    background-color: #221A37;
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+
+}
+
+header {
+    max-width: 142rem;
+    padding: 6rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header .logo {
+    font-size: 2.7rem;
+
+}
+
+header nav {
+    display: flex;
+    padding: 1.4rem 3.6rem;
+    gap: 3.6rem;
+
+}
+
+header nav a {
+    font-size: 1.2rem;
+    color: #E8E8E8;
+    padding: 1.2rem 1.2rem;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+header nav a:hover {
+    background: #402166;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 26px;
+}
+
+main {
+    max-width: 142rem;
+    padding: 2rem 10rem;
+    display: grid;
+    grid-template-columns: 50rem;
+    justify-content: end;
+    font-family: Aharoni;
+}
+
+main .title {
+    color: #E8E8E8;
+    font-size: 3rem;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+
+main .title h1 {
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+main .title .top {
+    font-size: 2rem;
+    color: #5D3974;
+}
+
+main .title .botton {
+    font-size: 1.4rem;
+    color: #575757;
+}
+
+main .info {
+    font-size: 1.4rem;
+    color: #C0C0C0;
+    margin-bottom: 2rem;
+}
+
+.Resume {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 500px;
+    height: 696px;
+
+}
+
+.Resume .item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+    width: 500px;
+    height: 232px;
+
+}
+
+.Resume .item .left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    gap: 10px;
+
+    width: 124px;
+    height: 212px;
+}
+.Resume .item .left h2{
+    width: 103px;
+height: 19px;
+}
+
+.Resume .item h2 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 100%;
+
+    font-family: 'Aharoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 0px;
+
+    color: #5D3974;
+}
+
+.Resume .item .left p{
+    width: 104px;
+height: 38px;
+}
+
+
+.Resume .item p {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 100%;
+
+
+    font-family: 'Aharoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 0px;
+
+    text-align: right;
+
+
+    color: #575757;
+}
+
+.Resume .item .seprator {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 10px;
+    gap: 10px;
+
+    width: 2px;
+    height: 212px;
+
+    background: #A60AC7;
+
+    box-shadow: 0px 4px 4px #A60AC7;
+    border-radius: 10px;
+}
+
+.Resume .item .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+
+    width: 334px;
+    height: 212px;
+}
+
+
+.Resume .item .right h1 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Aharoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 158.5%;
+
+    color: #E8E8E8;
+}
+
+
+.Resume .item .right p {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: 'Aharoni';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 158.5%;
+
+    color: #E8E8E8;
+}
